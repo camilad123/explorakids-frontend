@@ -1,0 +1,182 @@
+[
+  {
+    "id": "LOG-001",
+    "name": "Kit Explorador Junior",
+    "category": "Productos Principales",
+    "subcategory": "Educación y Campo",
+    "provider": "ExploraKids Gear",
+    "model": "EXP-2025-Basic",
+    "description": "El Kit Explorador es la herramienta definitiva para convertir una salida de campo en una aventura científica. Contiene una lupa de alto alcance, brújula de orientación, frascos herméticos para recolección de muestras y una bitácora de campo resistente al agua. Diseñado para fomentar la curiosidad y el aprendizaje activo en la naturaleza.",
+    "technical": {
+      "dimensions": "25cm x 15cm x 10cm",
+      "weight": "450g",
+      "capacity": "N/A",
+      "materials": "Plástico reciclado ABS, Vidrio reforzado",
+      "colors": "Verde Bosque / Naranja",
+      "resistance": "Impactos leves (caídas < 1m)",
+      "certifications": "ISO 9001, Toy Safety EN71"
+    },
+    "performance": { "lifetime": "3 años", "climate": "-5°C a 40°C" },
+    "commercial": {
+      "price": 85000,
+      "wholesalePrice": 70000,
+      "moq": "1 unidad",
+      "deliveryTime": "2-3 días hábiles",
+      "warranty": "6 meses",
+      "returnPolicy": "30 días por defectos de fábrica"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 kit",
+      "packageDims": "30cm x 20cm x 15cm",
+      "packageWeight": "0.6 kg",
+      "hsCode": "9503.00.00.00",
+      "origin": "Colombia",
+      "storage": "Ambiente seco"
+    },
+    "image": "https://images.unsplash.com/photo-1501555088652-021faa106b9b?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "SEG-002",
+    "name": "Chaleco de Seguridad",
+    "category": "Productos de Soporte",
+    "subcategory": "Seguridad Vial",
+    "provider": "SafeWear Col",
+    "model": "VEST-KIDS-01",
+    "description": "Prenda de protección personal obligatoria para garantizar la visibilidad de los niños en todo momento. Fabricado en malla de poliéster transpirable con bandas reflectivas 3M de grado ingeniería. Su uso facilita el conteo de estudiantes por parte de los monitores y asegura la integridad del grupo en zonas de tránsito.",
+    "technical": {
+      "dimensions": "Tallas S (4-6), M (8-10)",
+      "weight": "150g",
+      "capacity": "N/A",
+      "materials": "Poliéster 100%, Cintas reflectivas 3M",
+      "colors": "Amarillo Neón",
+      "resistance": "Rasgaduras leves",
+      "certifications": "NTC 1733 (Seguridad Vial)"
+    },
+    "performance": { "lifetime": "2 años", "climate": "Todo clima" },
+    "commercial": {
+      "price": 45000,
+      "wholesalePrice": 38000,
+      "moq": "1 unidad",
+      "deliveryTime": "1-2 días hábiles",
+      "warranty": "3 meses (costuras)",
+      "returnPolicy": "15 días (sin uso)"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 unidad",
+      "packageDims": "20cm x 20cm x 2cm",
+      "packageWeight": "0.2 kg",
+      "hsCode": "6211.33.00.00",
+      "origin": "Colombia",
+      "storage": "Lugar ventilado"
+    },
+    "image": "/chaleco.jpg"
+  },
+  {
+    "id": "SRV-003",
+    "name": "Seguro de Viaje Premium",
+    "category": "Valor Agregado",
+    "subcategory": "Servicios Financieros",
+    "provider": "Seguros del Estado",
+    "model": "POLIZA-AVENTURA-25",
+    "description": "Póliza de asistencia integral que complementa el seguro escolar básico. Ofrece cobertura ampliada para accidentes personales, gastos médicos de urgencia, traslados en ambulancia y asistencia legal. Es un servicio intangible que brinda tranquilidad absoluta a los padres durante las 24 horas que dura la actividad logística.",
+    "technical": {
+      "dimensions": "Digital (PDF)",
+      "weight": "0g",
+      "capacity": "Cobertura hasta $50M COP",
+      "materials": "Documento Digital",
+      "colors": "N/A",
+      "resistance": "N/A",
+      "certifications": "Superintendencia Financiera"
+    },
+    "performance": { "lifetime": "Vigencia por evento (24h)", "climate": "N/A" },
+    "commercial": {
+      "price": 12000,
+      "wholesalePrice": 10000,
+      "moq": "1 por niño",
+      "deliveryTime": "Inmediato (Email)",
+      "warranty": "Cumplimiento legal",
+      "returnPolicy": "Cancelación 24h antes"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 póliza",
+      "packageDims": "Envío electrónico",
+      "packageWeight": "0 kg",
+      "hsCode": "9999.99.99.99",
+      "origin": "Colombia",
+      "storage": "Servidor Seguro"
+    },
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "MER-004",
+    "name": "Botella Térmica",
+    "category": "Productos Principales",
+    "subcategory": "Merchandising",
+    "provider": "EcoVessels",
+    "model": "THERMO-500",
+    "description": "Botella reutilizable de acero inoxidable de doble pared con aislamiento al vacío. Diseñada para mantener las bebidas frías por 24 horas o calientes por 12 horas. Su tapa de bambú hermética evita derrames en las mochilas. Promueve la sostenibilidad al eliminar el uso de botellas plásticas desechables en nuestras rutas.",
+    "technical": {
+      "dimensions": "25cm alto, 7cm diámetro",
+      "weight": "300g",
+      "capacity": "500ml",
+      "materials": "Acero Inoxidable 18/8, Bambú",
+      "colors": "Azul Profundo / Blanco",
+      "resistance": "Abolladuras leves",
+      "certifications": "BPA Free, FDA Approved"
+    },
+    "performance": { "lifetime": "5+ años", "climate": "Mantiene frío 24h" },
+    "commercial": {
+      "price": 60000,
+      "wholesalePrice": 45000,
+      "moq": "1 unidad",
+      "deliveryTime": "3-5 días hábiles",
+      "warranty": "1 año",
+      "returnPolicy": "30 días"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 botella",
+      "packageDims": "28cm x 8cm x 8cm",
+      "packageWeight": "0.4 kg",
+      "hsCode": "9617.00.00.00",
+      "origin": "Importado",
+      "storage": "Cualquier ambiente"
+    },
+    "image": "https://images.unsplash.com/photo-1602143407151-0111419593cc?q=80&w=600&auto=format&fit=crop"
+  },
+  {
+    "id": "DIG-005",
+    "name": "Pack Multimediva (Drone)",
+    "category": "Soluciones Integrales",
+    "subcategory": "Servicios Digitales",
+    "provider": "ExploraKids Media",
+    "model": "MEDIA-PACK-V1",
+    "description": "Servicio exclusivo de registro audiovisual para padres. Un piloto certificado captura los mejores momentos de la jornada utilizando drones de última generación para tomas aéreas y fotografía profesional en tierra. Al finalizar, recibirás un enlace privado con 50 fotos HD y un video editado de la experiencia de tu hijo.",
+    "technical": {
+      "dimensions": "Resolución 4K / 24MP",
+      "weight": "Archivo ~2GB",
+      "capacity": "50 Fotos + 1 Video",
+      "materials": "Archivos Digitales .JPG .MP4",
+      "colors": "Full Color RGB",
+      "resistance": "Copia de seguridad",
+      "certifications": "Licencia Piloto Drone RAC 91"
+    },
+    "performance": { "lifetime": "Enlace activo 1 año", "climate": "N/A" },
+    "commercial": {
+      "price": 35000,
+      "wholesalePrice": 25000,
+      "moq": "1 paquete",
+      "deliveryTime": "48h post-evento",
+      "warranty": "Garantía de satisfacción",
+      "returnPolicy": "No aplica"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 enlace",
+      "packageDims": "Digital",
+      "packageWeight": "0 kg",
+      "hsCode": "N/A",
+      "origin": "Colombia",
+      "storage": "Nube AWS S3"
+    },
+    "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=800&q=80"
+  }
+]
