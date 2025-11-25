@@ -93,7 +93,7 @@ body {
 .hero-img-style {
   width: 100%;
   max-width: 550px;
-  height: 450px;
+  height: 720px;
   object-fit: cover;
   border-radius: var(--radius-blob);
   box-shadow: 20px 20px 60px -10px rgba(0,0,0,0.15);

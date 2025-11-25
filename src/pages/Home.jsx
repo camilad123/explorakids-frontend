@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import fotoverticalImg from '../components/img/fotovertical.jpg';
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
 
         <div className="hero-image-wrapper">
           <img 
-            src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1000&auto=format&fit=crop" 
+            src={fotoverticalImg}
             alt="Niño explorando con lupa" 
             className="hero-img-style" 
           />
