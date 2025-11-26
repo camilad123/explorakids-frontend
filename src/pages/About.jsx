@@ -40,22 +40,22 @@ function About() {
       
       {/* Sección Historia */}
       <section className="hero-split" style={{ minHeight: '50vh', background: 'transparent', gap: '2rem' }}>
-        <div className="hero-text">
+     <div className="hero-text">
           <span style={{ color: '#2563eb', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>
             Nuestra Historia
           </span>
           <h1 className="hero-title" style={{ fontSize: '2.5rem', marginTop: '1rem' }}>
-            Conectando el aula con <br/> el mundo real.
+            Ingeniería al servicio de <br/> la curiosidad.
           </h1>
           
-          {/* --- AQUÍ ESTÁ EL CAMBIO DE TEXTO --- */}
-          <p className="hero-subtitle" style={{ marginBottom: '1.5rem', lineHeight: '1.8' }}>
-            ExploraKids nació con una misión clara: romper las paredes del salón de clases. 
-            Identificamos que los niños aprenden teoría, pero les falta vivir la práctica. 
-            Nosotros nos encargamos de toda la logística compleja para que 
-            <strong> las instituciones y las familias se concentren exclusivamente en el crecimiento y la seguridad de los estudiantes.</strong>
+          {/* --- TEXTO DE ORIGEN NUEVO --- */}
+          <p className="hero-subtitle" style={{ marginBottom: '1.5rem', lineHeight: '1.8', textAlign: 'justify' }}>
+            ExploraKids nació en los pasillos de la facultad de Ingeniería Física. Notamos que la ciencia se enseñaba en tableros abstractos, 
+            mientras el mundo real estaba lleno de fenómenos por descubrir. 
+            <strong>Decidimos aplicar nuestra experiencia en datos y optimización para crear un sistema logístico que derribara las barreras del aula</strong>, 
+            permitiendo que la curiosidad de los niños viaje segura hacia el conocimiento práctico.
           </p>
-          {/* ----------------------------------- */}
+          {/* ----------------------------- */}
 
         </div>
         <div className="hero-image-wrapper" style={{ justifyContent: 'center' }}>
