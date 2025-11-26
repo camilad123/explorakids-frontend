@@ -69,7 +69,7 @@
       "origin": "Colombia",
       "storage": "Lugar ventilado"
     },
-    "image": "/chaleco.jpg"
+    "image": "LOCAL_IMAGE_OVERRIDE"
   },
   {
     "id": "SRV-003",
@@ -105,7 +105,7 @@
       "origin": "Colombia",
       "storage": "Servidor Seguro"
     },
-    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=600&auto=format&fit=crop"
+    "image": "LOCAL_IMAGE_OVERRIDE"
   },
   {
     "id": "MER-004",
@@ -141,11 +141,11 @@
       "origin": "Importado",
       "storage": "Cualquier ambiente"
     },
-    "image": "https://images.unsplash.com/photo-1602143407151-0111419593cc?q=80&w=600&auto=format&fit=crop"
+    "image": "LOCAL_IMAGE_OVERRIDE"
   },
   {
     "id": "DIG-005",
-    "name": "Pack Multimediva (Drone)",
+    "name": "Pack Multimedia (Drone)",
     "category": "Soluciones Integrales",
     "subcategory": "Servicios Digitales",
     "provider": "ExploraKids Media",
@@ -177,6 +177,186 @@
       "origin": "Colombia",
       "storage": "Nube AWS S3"
     },
-    "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&w=800&q=80"
+    "image": "LOCAL_IMAGE_OVERRIDE"
+  },
+  {
+    "id": "SERV-MENTOR-PROY-10",
+    "name": "Asesoría Feria de Ciencia",
+    "category": "Soluciones Integrales",
+    "subcategory": "Metodología Científica",
+    "provider": "ExploraKids Academy",
+    "model": "MENTOR-PHD-2025",
+    "description": "Ofrece mentoría personalizada y de alto nivel por parte de un científico con grado de posgrado (Maestría o Doctorado) para guiar al estudiante a través de todas las etapas de un proyecto de investigación. El enfoque científico se centra en el rigor metodológico: formulación de la pregunta, diseño del experimento, análisis estadístico y redacción.",
+    "technical": {
+      "dimensions": "Presencial / Virtual",
+      "weight": "N/A",
+      "capacity": "1 Estudiante (15-17 años)",
+      "materials": "Guías de investigación + Asesoría",
+      "colors": "N/A",
+      "resistance": "N/A",
+      "certifications": "Aval Científico ExploraKids"
+    },
+    "performance": { "lifetime": "3 Meses", "climate": "N/A" },
+    "commercial": {
+      "price": 330000,
+      "wholesalePrice": 330000,
+      "moq": "1 Proyecto",
+      "deliveryTime": "Inicio Inmediato",
+      "warranty": "Acompañamiento garantizado",
+      "returnPolicy": "Cancelación 1ra semana"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 servicio",
+      "packageDims": "Digital",
+      "packageWeight": "0 kg",
+      "hsCode": "N/A",
+      "origin": "Colombia",
+      "storage": "N/A"
+    },
+    "image": "LOCAL_IMAGE_OVERRIDE"
+  },
+  {
+    "id": "SERV-ENERG-REN-09",
+    "name": "Energías Renovables en Casa",
+    "category": "Soluciones Integrales",
+    "subcategory": "Física / Sostenibilidad",
+    "provider": "ExploraKids Academy",
+    "model": "KIT-SOLAR-HOME",
+    "description": "Un enfoque práctico a la Física de la Conversión de Energía. Los estudiantes reciben un kit de materiales (mini-paneles solares, pequeñas turbinas eólicas, medidores de voltaje) para construir y experimentar con sistemas de energía a escala doméstica. El propósito es entender los principios del electromagnetismo y la termodinámica aplicada.",
+    "technical": {
+      "dimensions": "Kit Físico + Aula Virtual",
+      "weight": "Kit: 1.5 kg",
+      "capacity": "Estudiantes 11-16 años",
+      "materials": "Paneles, Turbinas, Multímetro",
+      "colors": "Varios",
+      "resistance": "Material educativo duradero",
+      "certifications": "Guía STEM Certificada"
+    },
+    "performance": { "lifetime": "Duración Mensual", "climate": "Interior / Exterior" },
+    "commercial": {
+      "price": 275000,
+      "wholesalePrice": 250000,
+      "moq": "1 Suscripción",
+      "deliveryTime": "Kit llega en 3 días",
+      "warranty": "Garantía sobre el Kit",
+      "returnPolicy": "Cancelación primeros 5 días"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 Kit + Acceso",
+      "packageDims": "30cm x 20cm x 10cm",
+      "packageWeight": "1.5 kg",
+      "hsCode": "9023.00.00.00",
+      "origin": "Colombia / Importado",
+      "storage": "Ambiente seco"
+    },
+    "image": "LOCAL_IMAGE_OVERRIDE"
+  },
+  {
+    "id": "SERV-ANALISIS-MAT-06",
+    "name": "Análisis de Materiales (Microscopía)",
+    "category": "Soluciones Integrales",
+    "subcategory": "Física de Materiales",
+    "provider": "ExploraKids Lab",
+    "model": "SEM-OPTIC-LAB",
+    "description": "Oportunidad única para estudiantes de utilizar microscopios electrónicos de barrido (SEM) y ópticos de alta resolución. Permite caracterizar la microestructura, morfología y composición de muestras sólidas de sus propios proyectos. El propósito es validar hipótesis científicas y obtener imágenes de alta calidad.",
+    "technical": {
+      "dimensions": "Laboratorio Especializado",
+      "weight": "N/A",
+      "capacity": "1 Estudiante (13-16 años)",
+      "materials": "Uso de Equipo SEM / Óptico",
+      "colors": "Imágenes en Escala de Grises/Color",
+      "resistance": "N/A",
+      "certifications": "Informe Técnico de Caracterización"
+    },
+    "performance": { "lifetime": "Sesión de 4 horas", "climate": "Ambiente Controlado" },
+    "commercial": {
+      "price": 280000,
+      "wholesalePrice": 280000,
+      "moq": "1 Sesión",
+      "deliveryTime": "Agendamiento previo",
+      "warranty": "Calidad de imagen garantizada",
+      "returnPolicy": "Reprogramación disponible"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 Servicio",
+      "packageDims": "Digital (Resultados)",
+      "packageWeight": "0 kg",
+      "hsCode": "N/A",
+      "origin": "Colombia",
+      "storage": "N/A"
+    },
+    "image": "LOCAL_IMAGE_OVERRIDE"
+  },
+  {
+    "id": "SERV-QUIM-FOREN-12",
+    "name": "Club de Química Forense",
+    "category": "Soluciones Integrales",
+    "subcategory": "Química / Criminología",
+    "provider": "ExploraKids Academy",
+    "model": "CSI-CHEM-LAB",
+    "description": "Este club mensual sumerge a los estudiantes en la aplicación de la Química Analítica para resolver escenarios simulados. El servicio abarca el uso de técnicas reales de laboratorio, incluyendo la identificación de fluidos y análisis de trazas. El propósito es desarrollar rigor metodológico y pensamiento lógico basado en evidencia.",
+    "technical": {
+      "dimensions": "Sesiones de Laboratorio",
+      "weight": "N/A",
+      "capacity": "Estudiantes 11-16 años",
+      "materials": "Microscopios, Reactivos, Kit Forense",
+      "colors": "N/A",
+      "resistance": "N/A",
+      "certifications": "Diploma de Detective Científico"
+    },
+    "performance": { "lifetime": "Duración Mensual", "climate": "Laboratorio" },
+    "commercial": {
+      "price": 220000,
+      "wholesalePrice": 200000,
+      "moq": "1 Suscripción",
+      "deliveryTime": "Inicio a principio de mes",
+      "warranty": "Materiales incluidos",
+      "returnPolicy": "Cancelación primeros 5 días"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 Acceso + Kit",
+      "packageDims": "Presencial",
+      "packageWeight": "0 kg",
+      "hsCode": "N/A",
+      "origin": "Colombia",
+      "storage": "N/A"
+    },
+    "image": "LOCAL_IMAGE_OVERRIDE"
+  },
+  {
+    "id": "SERV-RUTAS-INDUS-14",
+    "name": "Ruta de Visitas Industriales",
+    "category": "Soluciones Integrales",
+    "subcategory": "Logística / Industrial",
+    "provider": "ExploraKids Logistics",
+    "model": "IND-TOUR-2025",
+    "description": "Una visita guiada y técnica a instalaciones industriales (fábricas o almacenes automatizados) que utilizan principios avanzados de Ingeniería Industrial y Física Aplicada. Los estudiantes ven cómo los conceptos científicos se aplican a la producción a gran escala y el control de calidad. Incluye charla técnica con ingeniero de planta.",
+    "technical": {
+      "dimensions": "Visita de Campo",
+      "weight": "N/A",
+      "capacity": "Grupos (15-17 años)",
+      "materials": "EPP (Casco, Gafas) incluido",
+      "colors": "N/A",
+      "resistance": "N/A",
+      "certifications": "Certificado de Visita Técnica"
+    },
+    "performance": { "lifetime": "Jornada de 6 horas", "climate": "Industrial" },
+    "commercial": {
+      "price": 80000,
+      "wholesalePrice": 75000,
+      "moq": "1 Cupo",
+      "deliveryTime": "Programación semestral",
+      "warranty": "Seguro de visita incluido",
+      "returnPolicy": "Cancelación 48h antes"
+    },
+    "logistics": {
+      "unitsPerPackage": "1 Ticket de acceso",
+      "packageDims": "Transporte incluido",
+      "packageWeight": "0 kg",
+      "hsCode": "N/A",
+      "origin": "Colombia",
+      "storage": "N/A"
+    },
+    "image": "LOCAL_IMAGE_OVERRIDE"
   }
 ]

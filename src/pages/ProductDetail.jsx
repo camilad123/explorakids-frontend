@@ -1,28 +1,27 @@
 import { useParams, Link } from 'react-router-dom';
 import products from '../data/products.json';
-import ProductCard from '../components/ProductCard'; // Reutilizamos la tarjeta pequeña
+import ProductCard from '../components/ProductCard';
 
-// TUS IMPORTACIONES ORIGINALES
+// IMPORTAR IMÁGENES LOCALES
 import chalecoLocal from '../components/img/chaleco.jpg';
 import seguroLocal from '../components/img/seguroviaje.jpg';
 import botellaLocal from '../components/img/botella4.jpg';
 import dronLocal from '../components/img/dron.jpg';
+import feriaLocal from '../components/img/FeriadecienciaServicio.jpeg';
+import energiaLocal from '../components/img/EnergiaRenovable.jpeg';
+import microscopiaLocal from '../components/img/analisisdemateriales.jpeg';
+import clubQuimicaLocal from '../components/img/ClubQuimica.jpeg';
+import industriaLocal from '../components/img/TECNICASINDUSTRIALES.jpeg'; // <--- ÚLTIMA IMAGEN
 
 function ProductDetail() {
-  // 1. Scroll al inicio al cargar un nuevo producto
-  // (Esto arregla que al dar clic en un relacionado, la página se quede abajo)
   const { id } = useParams();
-  
-  // Encuentra el producto actual
   const product = products.find((p) => p.id === id);
 
-  // LÓGICA DE RELACIONADOS:
-  // Filtramos productos de la misma categoría, pero quitamos el producto actual
+  // RELACIONADOS
   const relatedProducts = products
     .filter(p => p.category === product?.category && p.id !== product?.id)
-    .slice(0, 3); // Mostramos máximo 3
+    .slice(0, 3);
 
-  // Si no hay de la misma categoría, mostramos otros al azar (para que no quede vacío)
   const finalRelated = relatedProducts.length > 0 
     ? relatedProducts 
     : products.filter(p => p.id !== product?.id).slice(0, 3);
@@ -35,18 +34,21 @@ function ProductDetail() {
   else if (product.id === "SRV-003") imagenAMostrar = seguroLocal;
   else if (product.id === "MER-004") imagenAMostrar = botellaLocal;
   else if (product.id === "DIG-005") imagenAMostrar = dronLocal;
+  else if (product.id === "SERV-MENTOR-PROY-10") imagenAMostrar = feriaLocal;
+  else if (product.id === "SERV-ENERG-REN-09") imagenAMostrar = energiaLocal;
+  else if (product.id === "SERV-ANALISIS-MAT-06") imagenAMostrar = microscopiaLocal;
+  else if (product.id === "SERV-QUIM-FOREN-12") imagenAMostrar = clubQuimicaLocal;
+  else if (product.id === "SERV-RUTAS-INDUS-14") imagenAMostrar = industriaLocal; // <--- ASIGNACIÓN
 
   return (
     <div className="page-container" style={{ paddingBottom: '4rem' }}>
       
-      {/* Botón volver */}
       <div style={{ padding: '2rem 0' }}>
         <Link to="/catalogo" style={{ textDecoration: 'none', color: '#64748b', fontWeight: '500' }}>
           &larr; Volver al catálogo
         </Link>
       </div>
 
-      {/* SECCIÓN SUPERIOR (Igual que antes) */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '4rem', marginBottom: '6rem' }}>
         
         <div>
@@ -87,6 +89,7 @@ function ProductDetail() {
           <h3 style={{ borderBottom: '2px solid #f1f5f9', paddingBottom: '0.5rem', marginBottom: '1.5rem' }}>Especificaciones</h3>
           <table className="specs-table" style={{ width: '100%' }}>
             <tbody>
+              <tr><th style={{padding:'10px 0', color:'#64748b'}}>Capacidad</th><td style={{fontWeight:'500'}}>{product.technical.capacity}</td></tr>
               <tr><th style={{padding:'10px 0', color:'#64748b'}}>Materiales</th><td style={{fontWeight:'500'}}>{product.technical.materials}</td></tr>
               <tr><th style={{padding:'10px 0', color:'#64748b'}}>Certificaciones</th><td style={{fontWeight:'500'}}>{product.technical.certifications}</td></tr>
             </tbody>
@@ -98,7 +101,6 @@ function ProductDetail() {
         </div>
       </div>
 
-      {/* --- NUEVA SECCIÓN: PRODUCTOS RELACIONADOS --- */}
       <div style={{ borderTop: '1px solid #e2e8f0', paddingTop: '4rem' }}>
         <h3 style={{ fontSize: '2rem', marginBottom: '2rem', color: '#0f172a' }}>También te podría interesar</h3>
         <div className="product-grid">
