@@ -11,7 +11,7 @@ import feriaLocal from '../components/img/FeriadecienciaServicio.jpeg';
 import energiaLocal from '../components/img/EnergiaRenovable.jpeg';
 import microscopiaLocal from '../components/img/analisisdemateriales.jpeg';
 import clubQuimicaLocal from '../components/img/ClubQuimica.jpeg';
-import industriaLocal from '../components/img/TECNICASINDUSTRIALES.jpeg'; // <--- ÚLTIMA IMAGEN
+import industriaLocal from '../components/img/TECNICASINDUSTRIALES.jpeg';
 
 function ProductDetail() {
   const { id } = useParams();
@@ -38,7 +38,7 @@ function ProductDetail() {
   else if (product.id === "SERV-ENERG-REN-09") imagenAMostrar = energiaLocal;
   else if (product.id === "SERV-ANALISIS-MAT-06") imagenAMostrar = microscopiaLocal;
   else if (product.id === "SERV-QUIM-FOREN-12") imagenAMostrar = clubQuimicaLocal;
-  else if (product.id === "SERV-RUTAS-INDUS-14") imagenAMostrar = industriaLocal; // <--- ASIGNACIÓN
+  else if (product.id === "SERV-RUTAS-INDUS-14") imagenAMostrar = industriaLocal;
 
   return (
     <div className="page-container" style={{ paddingBottom: '4rem' }}>
@@ -95,9 +95,21 @@ function ProductDetail() {
             </tbody>
           </table>
 
-          <button className="btn-primary" style={{ width: '100%', marginTop: '3rem', border: 'none', cursor: 'pointer' }}>
+          {/* --- CAMBIO AQUÍ: BOTÓN AHORA ES UN LINK --- */}
+          <Link 
+            to="/contacto" 
+            className="btn-primary" 
+            style={{ 
+              width: '100%', 
+              marginTop: '3rem', 
+              textAlign: 'center', 
+              display: 'block' // Asegura que ocupe el ancho como un bloque
+            }}
+          >
             Contactar para Compra
-          </button>
+          </Link>
+          {/* ------------------------------------------- */}
+
         </div>
       </div>
 
