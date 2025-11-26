@@ -23,7 +23,7 @@ function About() {
     margin: '0 auto 1.5rem',
     border: '4px solid white',
     boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)',
-    overflow: 'hidden', // CRÍTICO: Corta lo que sobra
+    overflow: 'hidden',
     position: 'relative'
   };
 
@@ -47,18 +47,23 @@ function About() {
           <h1 className="hero-title" style={{ fontSize: '2.5rem', marginTop: '1rem' }}>
             Conectando el aula con <br/> el mundo real.
           </h1>
-          <p className="hero-subtitle" style={{ marginBottom: '1.5rem' }}>
+          
+          {/* --- AQUÍ ESTÁ EL CAMBIO DE TEXTO --- */}
+          <p className="hero-subtitle" style={{ marginBottom: '1.5rem', lineHeight: '1.8' }}>
             ExploraKids nació con una misión clara: romper las paredes del salón de clases. 
             Identificamos que los niños aprenden teoría, pero les falta vivir la práctica. 
-            Nosotros nos encargamos de la logística compleja para que los colegios y padres solo se preocupen por aprender.
+            Nosotros nos encargamos de toda la logística compleja para que 
+            <strong> las instituciones y las familias se concentren exclusivamente en el crecimiento y la seguridad de los estudiantes.</strong>
           </p>
+          {/* ----------------------------------- */}
+
         </div>
         <div className="hero-image-wrapper" style={{ justifyContent: 'center' }}>
           <img 
             src={fotohorizontalImg} 
             alt="Historia ExploraKids" 
             className="hero-img-style"
-            style={{ height: '400px', maxWidth: '500px', width: '100%', objectFit: 'cover' }} 
+            style={{ height: '250px', maxWidth: '400px', width: '100%', objectFit: 'cover' }} 
           />
         </div>
       </section>
@@ -69,13 +74,13 @@ function About() {
         
         <div className="features-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))' }}>
           
-          {/* 1. ADOLFO (Ajuste estándar) */}
+          {/* 1. ADOLFO */}
           <div className="feature-card">
             <div style={cardImageContainer}>
               <img src={adolfoImg} alt="Adolfo" style={{ 
                 ...imgBase, 
-                transform: 'scale(1.1)',      // Zoom suave
-                transformOrigin: 'center 20%' // Enfocar cara
+                transform: 'scale(1.1)',      
+                transformOrigin: 'center 20%' 
               }} />
             </div>
             <h3 style={{ fontSize: '1.4rem', color: '#0f172a', marginBottom: '0.5rem' }}>Adolfo Castañeda</h3>
@@ -83,13 +88,11 @@ function About() {
             <p style={{ marginTop: '0.5rem', fontSize: '0.95rem', color: '#64748b' }}>Ingeniero Físico</p>
           </div>
 
-          {/* 2. CAMILA (Corrección Pixelada) */}
+          {/* 2. CAMILA */}
           <div className="feature-card">
             <div style={cardImageContainer}>
               <img src={camilaImg} alt="Camila" style={{ 
                 ...imgBase, 
-                // REDUJE EL ZOOM A 1.2 PARA EVITAR PIXELES
-                // BAJÉ UN POCO EL ORIGEN PARA CENTRAR LA CARA
                 transform: 'scale(1.2)',       
                 transformOrigin: 'center 15%'  
               }} />
@@ -99,12 +102,11 @@ function About() {
             <p style={{ marginTop: '0.5rem', fontSize: '0.95rem', color: '#64748b' }}>Ingeniera Física</p>
           </div>
 
-          {/* 3. JULIANA (Corrección Pixelada) */}
+          {/* 3. JULIANA */}
           <div className="feature-card">
             <div style={cardImageContainer}>
               <img src={julianaImg} alt="Juliana" style={{ 
                 ...imgBase, 
-                // ZOOM MODERADO (1.3) PARA QUE NO SE PIXELE TANTO
                 transform: 'scale(1.3)',       
                 transformOrigin: 'center 20%'  
               }} />
@@ -114,12 +116,11 @@ function About() {
             <p style={{ marginTop: '0.5rem', fontSize: '0.95rem', color: '#64748b' }}>Ingeniera Física</p>
           </div>
 
-           {/* 4. ZARETH (Corrección "Muy Abajo") */}
+           {/* 4. ZARETH */}
            <div className="feature-card">
             <div style={cardImageContainer}>
               <img src={zarethImg} alt="Zareth" style={{ 
                 ...imgBase, 
-                // CAMBIÉ EL ORIGEN A 30% PARA SUBIR LA CARA
                 transform: 'scale(1.3)',       
                 transformOrigin: 'center 30%'  
               }} />

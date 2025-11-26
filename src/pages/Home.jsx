@@ -7,15 +7,15 @@ function Home() {
       
       {/* 1. SECCIÓN HERO DIVIDIDA */}
       <section className="hero-split">
-        <div className="hero-text">
+      <div className="hero-text">
           <h1 className="hero-title">
-            Transformamos el transporte en <br />
-            <span className="highlight">aprendizaje activo.</span>
+            Logística escolar inteligente con <br />
+            <span className="highlight">propósito educativo.</span>
           </h1>
           <p className="hero-subtitle">
-            La primera plataforma logística que convierte el trayecto escolar en 
-            una aventura científica segura. Rastreo GPS en tiempo real y 
-            experiencias educativas a bordo.
+            Gestionamos salidas pedagógicas con los más altos estándares de seguridad. 
+            Unimos transporte certificado, rastreo satelital y experiencias científicas 
+            prácticas para conectar a los estudiantes con el mundo real.
           </p>
           <Link to="/catalogo" className="btn-primary">
             Explorar Catálogo
