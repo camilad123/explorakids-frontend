@@ -9,8 +9,8 @@ function Home() {
       <section className="hero-split">
       <div className="hero-text">
           <h1 className="hero-title">
-            Logística escolar inteligente con <br />
-            <span className="highlight">propósito educativo.</span>
+            Logística escolar inteligente  <br />
+            <span className="highlight">con propósito educativo.</span>
           </h1>
           <p className="hero-subtitle">
             Gestionamos salidas pedagógicas con los más altos estándares de seguridad. 

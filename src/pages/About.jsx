@@ -62,7 +62,7 @@ function About() {
             src={fotohorizontalImg} 
             alt="Historia ExploraKids" 
             className="hero-img-style"
-            style={{ height: '250px', maxWidth: '400px', width: '100%', objectFit: 'cover' }} 
+            style={{ height: '400px', maxWidth: '600px', width: '100%', objectFit: 'cover' }} 
           />
         </div>
       </section>

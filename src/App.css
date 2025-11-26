@@ -66,12 +66,17 @@ body {
   gap: 4rem;
 }
 
-.hero-text { flex: 1; max-width: 600px; }
+.hero-text {
+  flex: 1;
+  max-width: 850px; /* <--- CAMBIO AQUÍ */
+  padding-right: 2rem; /* Un poco de aire a la derecha */
+}
 
+/* 2. Ajustamos el tamaño de letra para que fluya mejor */
 .hero-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.1;
+  font-size: 3rem; /* <--- BAJAMOS DE 3.5rem A 3rem */
+  line-height: 1.2; /* Un poco más de espacio entre líneas */
   font-weight: 800;
   margin-bottom: 1.5rem;
   color: var(--primary);
