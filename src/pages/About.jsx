@@ -49,10 +49,9 @@ function About() {
           </h1>
           
           {/* --- TEXTO DE ORIGEN NUEVO --- */}
-          <p className="hero-subtitle" style={{ marginBottom: '1.5rem', lineHeight: '1.8', textAlign: 'justify' }}>
+      <p className="hero-subtitle" style={{ marginBottom: '1.5rem', lineHeight: '1.8', textAlign: 'justify' }}>
             ExploraKids nació en los pasillos de la facultad de Ingeniería Física. Notamos que la ciencia se enseñaba en tableros abstractos, 
-            mientras el mundo real estaba lleno de fenómenos por descubrir. 
-            <strong>Decidimos aplicar nuestra experiencia en datos y optimización para crear un sistema logístico que derribara las barreras del aula</strong>, 
+            mientras el mundo real estaba lleno de fenómenos por descubrir. Decidimos aplicar nuestra experiencia en datos y optimización para crear un sistema logístico que derribara las barreras del aula, 
             permitiendo que la curiosidad de los niños viaje segura hacia el conocimiento práctico.
           </p>
           {/* ----------------------------- */}
