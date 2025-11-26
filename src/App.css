@@ -88,6 +88,7 @@ body {
   color: var(--text-soft);
   margin-bottom: 2.5rem;
   line-height: 1.6;
+  textAlign: 'justify'
 }
 
 .hero-img-style {
